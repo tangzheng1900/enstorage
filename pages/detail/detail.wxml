@@ -1,0 +1,10 @@
+<!--monitor.wxml-->
+<view class="container log-list">
+  <text class="log-item">{{currentpage}}</text>
+  <text class="log-item">文章详情</text>
+  <view wx:for="{{entry.d.entrylist}}" wx:for-item="entryItem">
+    <view class='entry-container'>
+      <image class='monitor-img' src="{{entryItem.screenshot}}" key="{{index}}"></image>
+    </view>
+  </view>
+</view>

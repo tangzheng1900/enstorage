@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/profit/profit",
+    "pages/monitor/monitor",
+    "pages/detail/detail"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "远景实验室",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "selectedColor": "#09bb07",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/homepage-0.png",
+      "selectedIconPath": "images/homepage-1.png"
+    },{
+      "pagePath": "pages/profit/profit",
+      "text": "收益",
+      "iconPath": "images/profit-0.png",
+      "selectedIconPath": "images/profit-1.png"
+    }, {
+      "pagePath": "pages/monitor/monitor",
+      "text": "监控",
+      "iconPath": "images/monitor-0.png",
+      "selectedIconPath": "images/monitor-1.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
